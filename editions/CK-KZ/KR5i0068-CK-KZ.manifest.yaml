@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0068/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0068/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 天仙正理直論淺說
+  date: '2015-08-29 17:55:23.882721'
+  source:
+    repository: kanripo
+    path: KR5i0068
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0068_001-CK-KZ.yaml, hash: 'sha256:0cf46caf16af8a6f2525529448cd48cb837957b0dc21bb46e2c9878155c24d33'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0068_001-CK-KZ.markers.yaml, hash: 'sha256:7dddc2323742053689e9865d51da953314b56d5dd015b9202298d91750337122'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0068_01p001a
+    span:
+    - body
+    - 0
+    - 15781
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:3a2b3eaad64d5544ce828470dfe28c7ad776e3a8320351315da0751fa7d30a10
